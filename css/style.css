@@ -1,0 +1,97 @@
+/* author:Muhsina Tasni.C
+date:12-5-2025 */
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  background-color: #f8f9fa;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+  padding-top: 80px;
+}
+
+/* Navbar styles */
+.navbar-brand h1 {
+  font-size: 40px;
+  padding-left: 10px;
+  margin-bottom: 0;
+  color: rgb(22, 99, 22);
+}
+.nav-link:hover {
+  color: rgb(22, 99, 22);
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+/* Signup container styles */
+.signup-container {
+  display: flex;
+  align-items: center;
+  padding: 40px 0 20px;
+}
+
+.content {
+  align-items: center;
+  background-color: white;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.form-section {
+  padding: 2rem;
+}
+
+.image-section {
+  /* min-height:300px; */
+  display: flex;
+  align-items: center;
+}
+
+.image-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btn {
+  background-color: rgb(22, 99, 22);
+}
+
+/* Footer styles */
+
+footer a {
+  color: #212529;
+  font-size: 24px;
+}
+
+footer a:hover {
+  color: rgb(22, 99, 22);
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .image-section {
+    height: 250px;
+  }
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
